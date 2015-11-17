@@ -16,14 +16,23 @@ CLIENT_FILE="$BASE/api-client"
 read -d ' ' BACKUP_PATHS <<EOF
 watchlist/movies
 watchlist/shows
+watchlist/seasons
 watchlist/episodes
 ratings/movies
 ratings/shows
+ratings/seasons
 ratings/episodes
+history/movies
+history/shows
+history/seasons
+history/episodes
 collection/movies
 collection/shows
 watched/movies
 watched/shows
+comments/all
+followers
+following
 EOF
 
 # Parse all command line options.
