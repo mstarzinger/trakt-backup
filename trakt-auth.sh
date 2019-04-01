@@ -8,6 +8,7 @@
 # a cronjob for regular re-authentication.
 #
 # (c) Copyright 2015 Michael Starzinger. All Rights Reserved.
+# Use of this work is governed by a license found in the LICENSE file.
 #
 
 BASE="$(cd "$(dirname "$0")" && pwd)"

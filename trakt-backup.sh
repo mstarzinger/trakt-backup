@@ -7,6 +7,7 @@
 # can be used as a cronjob to produce regular backups.
 #
 # (c) Copyright 2015 Michael Starzinger. All Rights Reserved.
+# Use of this work is governed by a license found in the LICENSE file.
 #
 
 BASE="$(cd "$(dirname "$0")" && pwd)"
